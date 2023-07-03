@@ -3,6 +3,7 @@
         <title> Menu de navegação </title>
      <link href="style.css" rel="stylesheet" media="all">
      <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+     <script src="Javascript.js"></script>
     </head>
     <body>
         <header>
@@ -137,7 +138,30 @@
         </header>
         <main>
             <section>
-                <div class="overlay"></div>
+            <div class="overlay">
+                <div class="container-fluid">
+                    <div class="form">
+                        <form name="Inscrição de curso">
+                            <h1> Welcome</h1>
+            
+                            <h2>Let's create your account!</h2>
+            
+                            <div class="inputs">
+                                <input type="text" id="nomeid" placeholder="First name" required="requerid" name="nome" />
+                                <label type="text" id="name"></label>
+            
+                                <input type="tel" id="foneid" placeholder="Last name" name="fone" />
+                                <label type="tel" id="tel"></label>
+            
+                                <input type="email" id="emailid" placeholder="E-mail" name="email" />
+                                <label type="email" id="email"></label>
+                            </div>
+            
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>  
             </section>
         </main>
     </body>

@@ -12,7 +12,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+
   }
   body {
     font-family: 'Poppins', sans-serif;
@@ -41,6 +41,65 @@ section {
     width: 100%;
     background: url("https://i.postimg.cc/TPn6kNJ2/bg.jpg") no-repeat top center / cover;
     overflow: hidden;
+}
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  padding: 30px 35px;
+  border-radius: 20px;
+  width: 250px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.form input {
+  display: block;
+  outline: none;
+  border-radius: 10px;
+  padding: 19px;
+  margin: 17px 0;
+  width: 100%;
+  border-style: none;
+  background-color: rgba(183, 221, 208, 0.678);
+  color: white;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 17px;
+  color: white;
+}
+
+form {
+  background-color: #3D8361;;
+}
+
+button {
+    
+    width: 100%;
+    padding: 15px 0;
+    border: 2px solid var(--clr-light);
+    border-radius: 2rem;
+    margin: 0 .2rem;
+    transition: .3s;
+    text-transform: uppercase;
+    color: var(--clr-btn);
+    cursor: pointer;
+    box-sizing: border-box;
+    align-items: flex-start;
+    
 }
 .overlay {
     position: absolute;
